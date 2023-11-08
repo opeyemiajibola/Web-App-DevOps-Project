@@ -56,6 +56,13 @@ To run the application, you simply need to run the `app.py` script in this repos
 ## Contributors 
 
 - [Maya Iuga]([https://github.com/yourusername](https://github.com/maya-a-iuga))
+- [Opeyemi Ajibola](https://github.com/opeyemiajibola)
+
+## Completed Project Milestones
+
+- **Defined Networkng Services with IaC**: Created a terraform module for setting up networking services for AKS 
+
+
 
 ## License
 
