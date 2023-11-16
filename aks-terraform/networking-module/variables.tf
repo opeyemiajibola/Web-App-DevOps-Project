@@ -1,7 +1,7 @@
 variable "resource_group_name" {
   description = "The name of the resource group where networking resource will be deployed."
   type        = string
-  default     = "myresourcegroup"
+  default     = "myResourceGroup"
 }
 
 variable "location" {

@@ -60,7 +60,8 @@ To run the application, you simply need to run the `app.py` script in this repos
 
 ## Completed Project Milestones
 
-- **Defined Networkng Services with IaC**: Created a terraform module for setting up networking services for AKS 
+- **Defined Networkng Services with IaC**: Created a terraform module for setting up networking services for AKS cluster.
+- **Defined an AKS Cluster with IaC**: Created a terraform module to automate the provisioning of an AKS cluster.
 
 
 
