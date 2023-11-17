@@ -62,6 +62,8 @@ To run the application, you simply need to run the `app.py` script in this repos
 
 - **Defined Networkng Services with IaC**: Created a terraform module for setting up networking services for AKS cluster.
 - **Defined an AKS Cluster with IaC**: Created a terraform module to automate the provisioning of an AKS cluster.
+- **Created an AKS Cluster with IaC**: Created a AKS cluster with IAC (terraform) on Azure
+- **Created an Kubernetes Deployment on AKS**: Defined and deploy kubernetes deployment manifest filw with flask-app on AKS
 
 
 

@@ -28,13 +28,13 @@ variable "kubernetes_version" {
 variable "service_principal_client_id" {
   description = "The Client ID of the service principal used for authenticating and managing the AKS cluster."
   type        = string
-  default     = "73459029-6f21-4045-829f-48ff79150e22"
+  default     = "ad0e7a68-dcc4-46de-9063-94fc02f41b34"
 }
 #to be completed
 variable "service_principal_client_secret" {
   description = "The Client Secret associated with the service principal used for AKS cluster."
   type        = string
-  default     = "Scl8Q~_8xMtWKlcE5KLip1URZ0ytDYAcMLGy~b0M"
+  default     = "NxX8Q~AFAZZce3rA1qwN6dybhLDmoLYEsVHHLbZf"
 }
 
 
