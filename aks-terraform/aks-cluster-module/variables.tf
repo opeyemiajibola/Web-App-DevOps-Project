@@ -28,14 +28,15 @@ variable "kubernetes_version" {
 variable "service_principal_client_id" {
   description = "The Client ID of the service principal used for authenticating and managing the AKS cluster."
   type        = string
-  default     = " "
+  default     = "73459029-6f21-4045-829f-48ff79150e22"
 }
 #to be completed
 variable "service_principal_client_secret" {
   description = "The Client Secret associated with the service principal used for AKS cluster."
   type        = string
-  default     = " "
+  default     = "Scl8Q~_8xMtWKlcE5KLip1URZ0ytDYAcMLGy~b0M"
 }
+
 
 # Input variables from the networking module
 variable "resource_group_name" {
@@ -48,4 +49,23 @@ variable "vnet_id" {
   description = "The virtual network id from the networking module."
   type        = string
   default     = "$module.networking-module.vnet_id"
+}
+
+
+variable "control_plane_subnet_id" {
+  description = "The ID of the control plane subnet from networking module."
+  type        = string
+  default     = "$module.networking-module.control_plane_subnet_id"
+}
+
+variable "worker_node_subnet_id" {
+  description = "The ID of the worker node subnet from the networking module."
+  type        = string
+  default     = "$module.networking-module.worker_node_subnet_id"
+}
+
+variable "aks_nsg_id" {
+  description = "ID of the Network Security Group (NSG) for AKS from the networking module."
+  type        = string
+  default     = "$module.networking-module.aks_nsg.id"
 }
