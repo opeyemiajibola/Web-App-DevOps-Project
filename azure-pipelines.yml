@@ -22,7 +22,7 @@ steps:
   inputs:
     action: 'deploy'
     connectionType: 'azureResourceManager'
-    azureSubscriptionConnection: 'Opeyemi Oluwaseyi Ajibola DevOps'
+    azureSubscriptionConnection: 'Azure AKS Cluster'
     azureResourceGroup: 'networking-rg'
     kubernetesCluster: 'terraform-aks-cluster'
     manifests: 'application-manifest.yaml'
