@@ -55,7 +55,7 @@ To run the application, you simply need to run the `app.py` script in this repos
 
 ## Contributors 
 
-- [Maya Iuga]([https://github.com/yourusername](https://github.com/maya-a-iuga))
+- [Maya Iuga](https://github.com/maya-a-iuga)
 - [Opeyemi Ajibola](https://github.com/opeyemiajibola)
 
 ## Completed Project Milestones
@@ -63,7 +63,7 @@ To run the application, you simply need to run the `app.py` script in this repos
 - **Defined Networkng Services with IaC**: Created a terraform module for setting up networking services for AKS cluster.
 - **Defined an AKS Cluster with IaC**: Created a terraform module to automate the provisioning of an AKS cluster.
 - **Created an AKS Cluster with IaC**: Created a AKS cluster with IAC (terraform) on Azure
-- **Created an Kubernetes Deployment on AKS**: Defined and deploy kubernetes deployment manifest file with flask-app on AKS
+- **Created a Kubernetes Deployment on AKS**: Defined and deploy kubernetes deployment manifest file with flask-app on AKS
 - **Created CI/CD Pipeline with Azure DevOps**:  Created CI/CD pipeline for web app in Azure DevOps
 
 
